@@ -38,3 +38,8 @@ This project allows users to generate beautiful linear gradients, preview them l
 
 ```css
 background: linear-gradient(to right, #8c00ff, #00bfff);
+```
+---
+
+### 🚀 Live Demo
+https://neerajojha1855.github.io/Color-Gradient-Generator/
