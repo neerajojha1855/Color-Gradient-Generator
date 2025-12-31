@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Gradient Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="gradient-box"></div>
+      <div class="row options">
+        <div class="column directions">
+          <p>Direction</p>
+          <div class="select-box">
+            <select>
+              <option value="to top" selected>Top</option>
+              <option value="to right top">Top Right</option>
+              <option value="to right">Right</option>
+              <option value="to right bottom">Bottom Right</option>
+              <option value="to bottom">Bottom</option>
+              <option value="to left bottom">Bottom Left</option>
+              <option value="to left">Left</option>
+              <option value="to left top">Top Left</option>
+            </select>
+          </div>
+        </div>
+        <div class="column colors">
+          <p>Colors</p>
+          <div class="inputs">
+            <input type="color" value="#8c00ff">
+            <input type="color" value="#00bfff">
+          </div>
+        </div>
+      </div>
+      <textarea class="rows" disabled></textarea>
+      <div class="row buttons">
+        <button class="refresh">Refresh Colors</button>
+        <button class="copy">Copy Hex Code</button>
+      </div>
+    </div>
+    <div class="watermark">
+      <p>&#169;Neeraj Ojha</p>
+    </div>
+  </body>
+</html>
